@@ -1,0 +1,69 @@
+body {
+    background-color: #398ffc;
+max-height: 100vh;
+overflow: hidden;
+font-family: 'Raleway'}
+
+nav {display: flex;
+justify-content: space-between;
+align-content: center;
+align-items: center;
+}
+
+ul {display: flex;
+}
+
+li {margin: 0px 50px;
+font-weight: 800;}
+
+nav img {width: 100px}
+
+.contenupp { width: 1000px}
+
+h1 {font-size: 60px;
+font-weight: 900;
+margin-left: 100px}
+
+.contenupp img {
+    position: absolute;
+    right: 100px;
+    bottom: 0px;
+}
+.contenupp button {
+    padding: 10px 30px; 
+    border-radius:20px ;
+    margin-left: 100px;
+    font-size: 30px;
+    border: none; 
+    box-shadow: 0px 0px 0px 0px black;
+    transform: translate(0px, 0px);
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}
+
+.contenupp button:hover {
+box-shadow: 10px 10px 0px 0px #398ffc;
+transform: translate(-5px, -5px);
+background-color: #00000090;
+}
+
+blockquote {
+    margin-left: 100px;
+    padding: 30px;
+    background-color: white;
+    width: 50%;
+    margin-top: 50px;
+}
+
+blockquote span { font-weight: 700;
+    ;}
+
+blockquote footer {
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 20px;
+    text-align: end;
+}
+ 
+button {cursor: pointer;}

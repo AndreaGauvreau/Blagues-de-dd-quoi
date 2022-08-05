@@ -9,10 +9,35 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&family=Space+Mono&display=swap" rel="stylesheet">
 <link href="./main.css" rel="stylesheet">
+<script src="./blagues.js"></script>
 </head>
 <body>
-    <main>
-        <h1>Bienvenue Sur Les Blagues De DD</h1>
+    <nav> 
+        <img src="./images/souris-hiboux.png" alt="logo blague de dd">
+        <span>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </span>
+        <span><a href="tel:+33771829277">+33 7 71 82 92 77</a></span>
+    </nav>
+    <main class="contenupp">
+        <h1>Bienvenue Sur <br>Les Blagues De DD</h1>
+        <img src="./images/andrea-gauvreau-du-cote-de-lyon.png" alt="andrea-photo">
+        <button onclick="generateColor()">Générer une blague</button>
+        <!-- The text field -->
+
+            <button onclick="copyToClipBoard()" class="copier">Copier</button>
+        <blockquote>
+            <span class="blague"  id="myInput" type="text">
+                lkfjf lkdf s jkd j sf ksdfs lk
+            </span>
+                <footer>
+                    auteur
+                </footer>
+        </blockquote>
     </main>
 </body>
 </html> 
