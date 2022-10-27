@@ -1,1 +1,1 @@
-# Blagues-de-dd-quoi
+# Voici un générateur de blague
